@@ -7,11 +7,12 @@ router.get('/',reclamoController.principal);
 router.get('/registroReclamos',reclamoController.registroReclamo);
 router.post('/guardarReclamo',reclamoController.guardarReclamo);
 router.get('/respuestaReclamos',reclamoController.respuestaReclamo);
-//router.get('/buscaObservacion/:observacionBusca',reclamoController.buscaObservacion);
+router.post('/buscaObservacion',reclamoController.buscaObservacion);
+
 
 router.get('/listaReclamos',reclamoController.listaReclamo);
 router.post('/muestraReclamo',reclamoController.muestraReclamo);
-router.get('/seleccionaObservacion',reclamoController.seleccionaObservacion);
+router.get('/seleccionaObservacion',reclamoController.buscaObservacion);
 
 
 

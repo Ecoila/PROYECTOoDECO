@@ -1,0 +1,278 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.1.36
+3 info using node@v0.8.2
+4 verbose config file C:\Users\AMQ\.npmrc
+5 verbose config file C:\Program Files\nodejs\etc\npmrc
+6 verbose config file C:\Program Files\nodejs\node_modules\npm\npmrc
+7 verbose read json C:\Users\AMQ\Desktop\proyectOdeco2\package.json
+8 verbose readDependencies using package.json deps
+9 verbose install where, deps [ 'C:\\Users\\AMQ\\Desktop\\proyectOdeco2',
+9 verbose install   [ 'body-parser',
+9 verbose install     'cookie-parser',
+9 verbose install     'debug',
+9 verbose install     'ejs',
+9 verbose install     'express',
+9 verbose install     'express-partials',
+9 verbose install     'morgan',
+9 verbose install     'sequelize',
+9 verbose install     'serve-favicon',
+9 verbose install     'sqlite3' ] ]
+10 verbose from cache C:\Users\AMQ\Desktop\proyectOdeco2\package.json
+11 info preinstall proyectodeco@0.0.0
+12 verbose from cache C:\Users\AMQ\Desktop\proyectOdeco2\package.json
+13 verbose readDependencies using package.json deps
+14 verbose cache add [ 'body-parser@~1.17.1', null ]
+15 silly cache add name=undefined spec="body-parser@~1.17.1" args=["body-parser@~1.17.1",null]
+16 verbose parsed url { pathname: 'body-parser@~1.17.1',
+16 verbose parsed url   path: 'body-parser@~1.17.1',
+16 verbose parsed url   href: 'body-parser@~1.17.1' }
+17 silly cache add name="body-parser" spec="~1.17.1" args=["body-parser","~1.17.1"]
+18 verbose parsed url { pathname: '~1.17.1', path: '~1.17.1', href: '~1.17.1' }
+19 verbose addNamed [ 'body-parser', '~1.17.1' ]
+20 verbose addNamed [ null, '>=1.17.1- <1.18.0-' ]
+21 verbose cache add [ 'cookie-parser@~1.4.3', null ]
+22 silly cache add name=undefined spec="cookie-parser@~1.4.3" args=["cookie-parser@~1.4.3",null]
+23 verbose parsed url { pathname: 'cookie-parser@~1.4.3',
+23 verbose parsed url   path: 'cookie-parser@~1.4.3',
+23 verbose parsed url   href: 'cookie-parser@~1.4.3' }
+24 silly cache add name="cookie-parser" spec="~1.4.3" args=["cookie-parser","~1.4.3"]
+25 verbose parsed url { pathname: '~1.4.3', path: '~1.4.3', href: '~1.4.3' }
+26 verbose addNamed [ 'cookie-parser', '~1.4.3' ]
+27 verbose addNamed [ null, '>=1.4.3- <1.5.0-' ]
+28 verbose cache add [ 'debug@~2.6.3', null ]
+29 silly cache add name=undefined spec="debug@~2.6.3" args=["debug@~2.6.3",null]
+30 verbose parsed url { pathname: 'debug@~2.6.3',
+30 verbose parsed url   path: 'debug@~2.6.3',
+30 verbose parsed url   href: 'debug@~2.6.3' }
+31 silly cache add name="debug" spec="~2.6.3" args=["debug","~2.6.3"]
+32 verbose parsed url { pathname: '~2.6.3', path: '~2.6.3', href: '~2.6.3' }
+33 verbose addNamed [ 'debug', '~2.6.3' ]
+34 verbose addNamed [ null, '>=2.6.3- <2.7.0-' ]
+35 verbose cache add [ 'ejs@~2.5.6', null ]
+36 silly cache add name=undefined spec="ejs@~2.5.6" args=["ejs@~2.5.6",null]
+37 verbose parsed url { pathname: 'ejs@~2.5.6',
+37 verbose parsed url   path: 'ejs@~2.5.6',
+37 verbose parsed url   href: 'ejs@~2.5.6' }
+38 silly cache add name="ejs" spec="~2.5.6" args=["ejs","~2.5.6"]
+39 verbose parsed url { pathname: '~2.5.6', path: '~2.5.6', href: '~2.5.6' }
+40 verbose addNamed [ 'ejs', '~2.5.6' ]
+41 verbose addNamed [ null, '>=2.5.6- <2.6.0-' ]
+42 verbose cache add [ 'express@~4.15.2', null ]
+43 silly cache add name=undefined spec="express@~4.15.2" args=["express@~4.15.2",null]
+44 verbose parsed url { pathname: 'express@~4.15.2',
+44 verbose parsed url   path: 'express@~4.15.2',
+44 verbose parsed url   href: 'express@~4.15.2' }
+45 silly cache add name="express" spec="~4.15.2" args=["express","~4.15.2"]
+46 verbose parsed url { pathname: '~4.15.2', path: '~4.15.2', href: '~4.15.2' }
+47 verbose addNamed [ 'express', '~4.15.2' ]
+48 verbose addNamed [ null, '>=4.15.2- <4.16.0-' ]
+49 verbose cache add [ 'express-partials@^0.3.0', null ]
+50 silly cache add name=undefined spec="express-partials@^0.3.0" args=["express-partials@^0.3.0",null]
+51 verbose parsed url { pathname: 'express-partials@^0.3.0',
+51 verbose parsed url   path: 'express-partials@^0.3.0',
+51 verbose parsed url   href: 'express-partials@^0.3.0' }
+52 silly cache add name="express-partials" spec="^0.3.0" args=["express-partials","^0.3.0"]
+53 verbose parsed url { pathname: '^0.3.0', path: '^0.3.0', href: '^0.3.0' }
+54 verbose addNamed [ 'express-partials', '^0.3.0' ]
+55 verbose addNamed [ null, null ]
+56 verbose cache add [ 'morgan@~1.8.1', null ]
+57 silly cache add name=undefined spec="morgan@~1.8.1" args=["morgan@~1.8.1",null]
+58 verbose parsed url { pathname: 'morgan@~1.8.1',
+58 verbose parsed url   path: 'morgan@~1.8.1',
+58 verbose parsed url   href: 'morgan@~1.8.1' }
+59 silly cache add name="morgan" spec="~1.8.1" args=["morgan","~1.8.1"]
+60 verbose parsed url { pathname: '~1.8.1', path: '~1.8.1', href: '~1.8.1' }
+61 verbose addNamed [ 'morgan', '~1.8.1' ]
+62 verbose addNamed [ null, '>=1.8.1- <1.9.0-' ]
+63 verbose cache add [ 'sequelize@^1.7.0', null ]
+64 silly cache add name=undefined spec="sequelize@^1.7.0" args=["sequelize@^1.7.0",null]
+65 verbose parsed url { pathname: 'sequelize@^1.7.0',
+65 verbose parsed url   path: 'sequelize@^1.7.0',
+65 verbose parsed url   href: 'sequelize@^1.7.0' }
+66 silly cache add name="sequelize" spec="^1.7.0" args=["sequelize","^1.7.0"]
+67 verbose parsed url { pathname: '^1.7.0', path: '^1.7.0', href: '^1.7.0' }
+68 verbose addNamed [ 'sequelize', '^1.7.0' ]
+69 verbose addNamed [ null, null ]
+70 verbose cache add [ 'serve-favicon@~2.4.2', null ]
+71 silly cache add name=undefined spec="serve-favicon@~2.4.2" args=["serve-favicon@~2.4.2",null]
+72 verbose parsed url { pathname: 'serve-favicon@~2.4.2',
+72 verbose parsed url   path: 'serve-favicon@~2.4.2',
+72 verbose parsed url   href: 'serve-favicon@~2.4.2' }
+73 silly cache add name="serve-favicon" spec="~2.4.2" args=["serve-favicon","~2.4.2"]
+74 verbose parsed url { pathname: '~2.4.2', path: '~2.4.2', href: '~2.4.2' }
+75 verbose addNamed [ 'serve-favicon', '~2.4.2' ]
+76 verbose addNamed [ null, '>=2.4.2- <2.5.0-' ]
+77 verbose cache add [ 'sqlite3@^3.1.8', null ]
+78 silly cache add name=undefined spec="sqlite3@^3.1.8" args=["sqlite3@^3.1.8",null]
+79 verbose parsed url { pathname: 'sqlite3@^3.1.8',
+79 verbose parsed url   path: 'sqlite3@^3.1.8',
+79 verbose parsed url   href: 'sqlite3@^3.1.8' }
+80 silly cache add name="sqlite3" spec="^3.1.8" args=["sqlite3","^3.1.8"]
+81 verbose parsed url { pathname: '^3.1.8', path: '^3.1.8', href: '^3.1.8' }
+82 verbose addNamed [ 'sqlite3', '^3.1.8' ]
+83 verbose addNamed [ null, null ]
+84 silly lockFile 8464479a-body-parser-1-17-1 body-parser@~1.17.1
+85 verbose lock body-parser@~1.17.1 C:\Users\AMQ\AppData\Roaming\npm-cache\8464479a-body-parser-1-17-1.lock
+86 silly lockFile 6b83b518-cookie-parser-1-4-3 cookie-parser@~1.4.3
+87 verbose lock cookie-parser@~1.4.3 C:\Users\AMQ\AppData\Roaming\npm-cache\6b83b518-cookie-parser-1-4-3.lock
+88 silly lockFile 7c767a0d-debug-2-6-3 debug@~2.6.3
+89 verbose lock debug@~2.6.3 C:\Users\AMQ\AppData\Roaming\npm-cache\7c767a0d-debug-2-6-3.lock
+90 silly lockFile d9507ff5-ejs-2-5-6 ejs@~2.5.6
+91 verbose lock ejs@~2.5.6 C:\Users\AMQ\AppData\Roaming\npm-cache\d9507ff5-ejs-2-5-6.lock
+92 silly lockFile 6a22b71d-express-4-15-2 express@~4.15.2
+93 verbose lock express@~4.15.2 C:\Users\AMQ\AppData\Roaming\npm-cache\6a22b71d-express-4-15-2.lock
+94 silly lockFile b9c91d61-express-partials-0-3-0 express-partials@^0.3.0
+95 verbose lock express-partials@^0.3.0 C:\Users\AMQ\AppData\Roaming\npm-cache\b9c91d61-express-partials-0-3-0.lock
+96 silly lockFile cb5d6d21-morgan-1-8-1 morgan@~1.8.1
+97 verbose lock morgan@~1.8.1 C:\Users\AMQ\AppData\Roaming\npm-cache\cb5d6d21-morgan-1-8-1.lock
+98 silly lockFile 3cd1e845-sequelize-1-7-0 sequelize@^1.7.0
+99 verbose lock sequelize@^1.7.0 C:\Users\AMQ\AppData\Roaming\npm-cache\3cd1e845-sequelize-1-7-0.lock
+100 silly lockFile cde3c5c3-serve-favicon-2-4-2 serve-favicon@~2.4.2
+101 verbose lock serve-favicon@~2.4.2 C:\Users\AMQ\AppData\Roaming\npm-cache\cde3c5c3-serve-favicon-2-4-2.lock
+102 silly lockFile f3f6c264-sqlite3-3-1-8 sqlite3@^3.1.8
+103 verbose lock sqlite3@^3.1.8 C:\Users\AMQ\AppData\Roaming\npm-cache\f3f6c264-sqlite3-3-1-8.lock
+104 silly addNameRange { name: 'body-parser',
+104 silly addNameRange   range: '>=1.17.1- <1.18.0-',
+104 silly addNameRange   hasData: false }
+105 silly addNameRange { name: 'cookie-parser',
+105 silly addNameRange   range: '>=1.4.3- <1.5.0-',
+105 silly addNameRange   hasData: false }
+106 silly addNameRange { name: 'debug', range: '>=2.6.3- <2.7.0-', hasData: false }
+107 silly addNameRange { name: 'ejs', range: '>=2.5.6- <2.6.0-', hasData: false }
+108 silly addNameRange { name: 'express', range: '>=4.15.2- <4.16.0-', hasData: false }
+109 info addNameTag [ 'express-partials', '^0.3.0' ]
+110 silly addNameRange { name: 'morgan', range: '>=1.8.1- <1.9.0-', hasData: false }
+111 info addNameTag [ 'sequelize', '^1.7.0' ]
+112 silly addNameRange { name: 'serve-favicon',
+112 silly addNameRange   range: '>=2.4.2- <2.5.0-',
+112 silly addNameRange   hasData: false }
+113 info addNameTag [ 'sqlite3', '^3.1.8' ]
+114 verbose url raw body-parser
+115 verbose url resolving [ 'https://registry.npmjs.org/', './body-parser' ]
+116 verbose url resolved https://registry.npmjs.org/body-parser
+117 info retry registry request attempt 1 at 18:19:40
+118 http GET https://registry.npmjs.org/body-parser
+119 verbose url raw cookie-parser
+120 verbose url resolving [ 'https://registry.npmjs.org/', './cookie-parser' ]
+121 verbose url resolved https://registry.npmjs.org/cookie-parser
+122 info retry registry request attempt 1 at 18:19:40
+123 http GET https://registry.npmjs.org/cookie-parser
+124 verbose url raw debug
+125 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+126 verbose url resolved https://registry.npmjs.org/debug
+127 info retry registry request attempt 1 at 18:19:40
+128 http GET https://registry.npmjs.org/debug
+129 verbose url raw ejs
+130 verbose url resolving [ 'https://registry.npmjs.org/', './ejs' ]
+131 verbose url resolved https://registry.npmjs.org/ejs
+132 info retry registry request attempt 1 at 18:19:40
+133 http GET https://registry.npmjs.org/ejs
+134 verbose url raw express
+135 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+136 verbose url resolved https://registry.npmjs.org/express
+137 info retry registry request attempt 1 at 18:19:40
+138 http GET https://registry.npmjs.org/express
+139 verbose url raw express-partials
+140 verbose url resolving [ 'https://registry.npmjs.org/', './express-partials' ]
+141 verbose url resolved https://registry.npmjs.org/express-partials
+142 info retry registry request attempt 1 at 18:19:40
+143 http GET https://registry.npmjs.org/express-partials
+144 verbose url raw morgan
+145 verbose url resolving [ 'https://registry.npmjs.org/', './morgan' ]
+146 verbose url resolved https://registry.npmjs.org/morgan
+147 info retry registry request attempt 1 at 18:19:40
+148 http GET https://registry.npmjs.org/morgan
+149 verbose url raw sequelize
+150 verbose url resolving [ 'https://registry.npmjs.org/', './sequelize' ]
+151 verbose url resolved https://registry.npmjs.org/sequelize
+152 info retry registry request attempt 1 at 18:19:40
+153 http GET https://registry.npmjs.org/sequelize
+154 verbose url raw serve-favicon
+155 verbose url resolving [ 'https://registry.npmjs.org/', './serve-favicon' ]
+156 verbose url resolved https://registry.npmjs.org/serve-favicon
+157 info retry registry request attempt 1 at 18:19:40
+158 http GET https://registry.npmjs.org/serve-favicon
+159 verbose url raw sqlite3
+160 verbose url resolving [ 'https://registry.npmjs.org/', './sqlite3' ]
+161 verbose url resolved https://registry.npmjs.org/sqlite3
+162 info retry registry request attempt 1 at 18:19:40
+163 http GET https://registry.npmjs.org/sqlite3
+164 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+165 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+166 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+167 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+168 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+169 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+170 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+171 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+172 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+173 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+174 info retry registry request attempt 2 at 18:19:51
+175 http GET https://registry.npmjs.org/cookie-parser
+176 info retry registry request attempt 2 at 18:19:51
+177 http GET https://registry.npmjs.org/debug
+178 info retry registry request attempt 2 at 18:19:51
+179 http GET https://registry.npmjs.org/express
+180 info retry registry request attempt 2 at 18:19:51
+181 http GET https://registry.npmjs.org/ejs
+182 info retry registry request attempt 2 at 18:19:52
+183 http GET https://registry.npmjs.org/sequelize
+184 info retry registry request attempt 2 at 18:19:52
+185 http GET https://registry.npmjs.org/express-partials
+186 info retry registry request attempt 2 at 18:19:52
+187 http GET https://registry.npmjs.org/morgan
+188 info retry registry request attempt 2 at 18:19:52
+189 http GET https://registry.npmjs.org/serve-favicon
+190 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+191 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+192 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+193 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+194 info retry registry request attempt 2 at 18:19:52
+195 http GET https://registry.npmjs.org/sqlite3
+196 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+197 info retry registry request attempt 2 at 18:19:52
+198 http GET https://registry.npmjs.org/body-parser
+199 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+200 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+201 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+202 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+203 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+204 info retry registry request attempt 3 at 18:20:52
+205 http GET https://registry.npmjs.org/debug
+206 info retry registry request attempt 3 at 18:20:52
+207 http GET https://registry.npmjs.org/express
+208 info retry registry request attempt 3 at 18:20:52
+209 http GET https://registry.npmjs.org/cookie-parser
+210 info retry registry request attempt 3 at 18:20:52
+211 http GET https://registry.npmjs.org/ejs
+212 info retry registry request attempt 3 at 18:20:52
+213 http GET https://registry.npmjs.org/sequelize
+214 info retry registry request attempt 3 at 18:20:52
+215 http GET https://registry.npmjs.org/express-partials
+216 silly lockFile 6a22b71d-express-4-15-2 express@~4.15.2
+217 error Error: SSL Error: CERT_UNTRUSTED
+217 error     at ClientRequest.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\main.js:440:26)
+217 error     at ClientRequest.g (events.js:185:14)
+217 error     at ClientRequest.EventEmitter.emit (events.js:88:17)
+217 error     at HTTPParser.parserOnIncomingClient [as onIncoming] (http.js:1445:7)
+217 error     at HTTPParser.parserOnHeadersComplete [as onHeadersComplete] (http.js:111:23)
+217 error     at CleartextStream.socketOnData [as ondata] (http.js:1356:20)
+217 error     at CleartextStream.CryptoStream._push (tls.js:396:27)
+217 error     at SecurePair.cycle (tls.js:750:20)
+217 error     at EncryptedStream.CryptoStream.write (tls.js:131:13)
+217 error     at Socket.ondata (stream.js:38:26)
+217 error  [Error: SSL Error: CERT_UNTRUSTED]
+218 error You may report this log at:
+218 error     <http://github.com/isaacs/npm/issues>
+218 error or email it to:
+218 error     <npm-@googlegroups.com>
+219 error System Windows_NT 6.1.7601
+220 error command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+221 error cwd C:\Users\AMQ\Desktop\proyectOdeco2
+222 error node -v v0.8.2
+223 error npm -v 1.1.36
+224 error message SSL Error: CERT_UNTRUSTED
+225 verbose exit [ 1, true ]

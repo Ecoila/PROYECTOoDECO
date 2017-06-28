@@ -53,16 +53,8 @@ exports.seleccionaObservacion = function(req, res) {
 		  				 };
 		  				 
 exports.buscaObservacion = function(req, res){
-  var observacionBusca = req.params.observacionBusca;
+  var observacionBuca = req.body.observacionBuca;
   models.reclamo.findAll().then( function(reclamos){
-        res.render('listaReclamo',{  observacionBusca:observacionBusca, reclamos:reclamos});
+        res.render('seleccionaObservacion',{  observacionBuca:observacionBuca, reclamos:reclamos});
                });
 };
-
-/*exports.buscaObservacion = function(req, res){
-  var text = req.params.text;
-  models.reclamo.findAll().then( function(reclamos){
-        res.render('listaReclamo',{  text:text, reclamos:reclamos});
-               });
-}
-*/
